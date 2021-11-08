@@ -1,0 +1,27 @@
+html,body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+
+}
+input{
+    text-align: center;
+}
+
+.paragraf-styling{
+    cursor: pointer;
+    margin: 0;
+    font-size: 35px;
+    color: red;
+    text-transform: capitalize;
+}

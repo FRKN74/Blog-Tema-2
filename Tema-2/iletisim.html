@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CDN-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- FontawsomeCDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- external css-->
+    <link rel="stylesheet" href="/css/iletisim.css">
+
+
+
+    <title>staj</title>
+</head>
+<body>
+    <header>
+        <!-- navbar start-->
+        <nav class="navbar "> 
+            <label>Furkan ERPAY</label>
+
+            <input type="checkbox" name="" id="check">
+
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars float-lg-right" id="menu"></i>
+            </label>
+            <ul>
+                <li><a id="navlist" class="active" href="index.html">Anasayfa</a></li>
+                <li><a id="navlist" class="active" href="content.html">Content</a></li>
+                <li><a id="navlist" href="iletisim.html">İletişim</a></li>
+                <li><a id="navlist" href="hakkında.html">Hakkımızda</a></li>
+            </ul>
+        </nav>
+        <!-- navbar finished-->
+    
+    
+
+    <!-- image start-->
+        <div class="image">
+            <div class="image-ort">
+                <img class="img" src="/image/Furkan_Erpay.jpg" alt="" id="profil-foto" >
+                <hr class="profil-line">
+                <label for="">Furkan ERPAY</label>
+            </div>
+            <img src="/image/1.jpg" alt="Resim yok" class="img-fluid" width="100%" height="10%">
+        </div>
+    <!-- image finished -->
+</header>
+        <!-- content -->
+<main>
+    <div class="container">
+        <div class="content">
+            <h2>İletişim </h2>
+            <br>
+            <label class="iletisimContent">Telefon no: +90 531 894 6704
+
+                <hr>
+                Adres:Merkez/Bartın
+            </label> 
+        </div>
+    </div> 
+</main>
+
+<!-- footer start -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mt-3" id="leftFooter">
+                <div class="socialmedia">
+                    <label id="labelFooter"><a href="" id="socialmedia2"> <i class="fa fa-instagram"></i> </a></label>
+                    <label id="labelFooter"><a href="" id="socialmedia2"> <i class="fa fa-github"></i> </a></label>
+                    <label id="labelFooter"><a href="" id="socialmedia2"> <i class="fa fa-linkedin"></i></a></label>
+                </div>
+            <hr style="color: white;">
+                <label for="" id="footerInfo">Ad Soyad: Furkan ERPAY</label>
+                <br>
+                <label for="" id="footerInfo">E-mail: <a href="#"> furkan74er@gmail.com</a></label>
+                <br>
+                <label for="" id="footerInfo">Adres: Merkez/BARTIN</label>
+                
+            </div>
+            <div class="col-md-6">
+                    <form action="">
+                        <div class="form-group mt-4">
+                            <input type="text" name="" class="form-control mt-2" id="" placeholder="Adınızı giriniz...">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="" class="form-control mt-2" id="" placeholder="E-Mail adresinizi giriniz..">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="" class="form-control mt-2" id="" rows="3" placeholder="Konu belirtiniz...">
+                        </div>
+                        
+                        <div class="btn-group mt-2 mb-2">
+                            <button type="reset" class="btn btn-outline-danger">Temizle</button>
+                            <button type="submit" class="btn btn-outline-success">Gönder</button>
+                        </div>
+                    </form>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+        <div style="background-color: black; color:#fff; height: 2rem; "
+            class="col-md-12 text-center alt">
+            &copy; Bütün haklar saklıdır
+        </div>
+</footer>
+<!-- footer finish -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+<script src="https://use.fontawesome.com/9e0f9eef99.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- External Js:  Bütün proje için kullanıyoruz. -->
+<script src="js/index.js"></script>
+
+<!-- Jquery navbar sabitleme -->
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+        $(window).scroll(function(){
+            if($(this).scrollTop()>400) {
+                
+                $(".navbar").addClass("sabitle");
+            }else{
+                $(".navbar").removeClass("sabitle");
+            }
+        });
+    });
+
+</script>
+</body>
+</html>

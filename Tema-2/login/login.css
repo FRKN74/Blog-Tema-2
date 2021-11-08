@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/image/YAGMUR.jpg) ;
+    background-position: center center;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin-top: 250px;
+    height: 100%;
+    align-items: center;
+
+}
+.card{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 300px;
+    width: 450px;
+    justify-content: center;
+    opacity: .8;
+}
+.card label{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.input-group{
+    margin-top: 10px;
+}
+.input-group-text{
+    background-color:#ffbb00;
+    border: #ffbb00;
+    color: black;
+}
+.social_icon span{
+    font-size: 60px;
+    margin-left: 50px;
+    color: #ffbb00;
+}
+.social_icon span:hover{
+
+    color: yellow;
+    transition: all .8s;
+    cursor: pointer;
+}
+.social_icon{
+    position: absolute;
+    top: -50px;
+    left: 120px;
+}
+
+
+
+
